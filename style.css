@@ -1,0 +1,155 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/* -------------------------------------------------------------------------------- */
+body {
+  background: #07070c;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 18px;
+  color: #c2c2c2;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.popular {
+  width: 100%;
+  padding-top: 50px;
+}
+.popular__body {
+  max-width: 1032px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+}
+.popular__title {
+}
+.title {
+  width: 100%;
+  font-size: calc(24px + 2vw);
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.popular__subtitle {
+  padding-top: 20px;
+}
+.subtitle {
+  font-size: calc(9px + 0.75vw);
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.populars__row {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.cart {
+  border-radius: 20px;
+  border: 1px solid #5d5d5d;
+  padding: 20px;
+}
+.popular__cart {
+  flex: 1;
+}
+
+.cart__photo {
+  border-radius: 20px;
+  width: 100%;
+}
+.cart__content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cart__content-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+}
+.cart__title {
+  font-size: 1.5rem;
+
+  font-weight: 400;
+  color: #fff;
+}
+.cart__price {
+  background-color: #fff;
+  height: 100%;
+  padding: 0px 15px;
+  border-radius: 15px;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: #16161b;
+}
+.cart__content__bottom {
+  margin-top: 10px;
+}
+.cart__text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.cart__buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  border-radius: 50px;
+  padding: 13px 26px;
+  white-space: nowrap;
+}
+.cart__button {
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: inherit;
+  flex: 1;
+}
